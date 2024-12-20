@@ -35,7 +35,8 @@ MCU_NOBUILD:=V203
 else
 # assume Linux
 OSDIR:=linux
-ARM_SDK_PREFIX:=tools/linux/xpack-arm-none-eabi-gcc-10.3.1-2.3/bin/arm-none-eabi-
+#ARM_SDK_PREFIX:=tools/linux/xpack-arm-none-eabi-gcc-10.3.1-2.3/bin/arm-none-eabi-
+ARM_SDK_PREFIX:=arm-none-eabi-
 CP:=cp
 DSEP:=/
 NUL:=/dev/null
