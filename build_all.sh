@@ -1,0 +1,2 @@
+make clean
+make MCU_NOBUILD="V203 L431_CAN F415_CAN" -j32
