@@ -26,8 +26,10 @@
             "armToolchainPath": "${workspaceFolder}/tools/macos/xpack-arm-none-eabi-gcc-10.3.1-2.3/bin"
         },
         "linux": {
-            "serverpath": "${workspaceFolder}/tools/linux/openocd/bin/openocd",
-            "armToolchainPath": "${workspaceFolder}/tools/linux/xpack-arm-none-eabi-gcc-10.3.1-2.3/bin"
+            // "serverpath": "${workspaceFolder}/tools/linux/openocd/bin/openocd",
+            // "armToolchainPath": "${workspaceFolder}/tools/linux/xpack-arm-none-eabi-gcc-10.3.1-2.3/bin"
+            "serverpath": "/opt/toolchains/tc_arm-none-eabi/bin/openocd",
+            "armToolchainPath": "/opt/toolchains/tc_arm-none-eabi/bin"
         },
         "windows": {
             "serverpath": "${workspaceFolder}\\tools\\windows\\openocd\\bin\\openocd",
